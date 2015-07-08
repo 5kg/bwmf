@@ -3,7 +3,7 @@ language: go
 go:
   - 1.4
 
-env: ETCD_BIN_VERSION=2.0.11
+env: ETCD_BIN_VERSION=2.0.13
 
 before_script:
   - scripts/install_etcd
